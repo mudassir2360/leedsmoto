@@ -1,0 +1,111 @@
+.chart-wrapper {
+  width: 100%;
+  height: 80%;
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  background-color: #f9f9f9;
+  position: absolute;
+}
+
+.mobile-chart-data {
+  display: none;
+}
+
+path {
+  stroke: #f9f9f9;
+  /* stroke-width: 5px; */
+  cursor: pointer;
+  transition: fill 250ms;
+}
+path:hover {
+  /* stroke-width: 10px; */
+  fill: #030303;
+}
+
+polyline {
+  fill: none;
+  stroke: #491411;
+  stroke-width: 2px;
+  stroke-dasharray: 5px;
+}
+
+.graph-sec {
+  margin-bottom: 50em;
+}
+
+.chart-wrapper .pcs {
+  font-size: 12px;
+}
+
+.data-container {
+  text-align: center;
+}
+
+.data {
+  margin: 20px 0;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #a42c27;
+}
+
+.number {
+  font-size: 0.9em;
+  margin-top: -10px;
+  color: black;
+}
+
+.number span {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+  .chart-wrapper {
+    font-size: 1.1em;
+    height: 50%;
+    font-weight: semibold;
+  }
+
+  section#news.section-padding {
+    padding-bottom: 0;
+  }
+
+  .graph-sec {
+    margin-bottom: 30em;
+  }
+
+  .chart-wrapper .pcs {
+    font-size: 12px;
+  }
+
+  .chart-wrapper svg text {
+    letter-spacing: 0.3px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .chart-wrapper {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .chart-wrapper {
+    display: none;
+  }
+
+  .mobile-chart-data {
+    display: block;
+    text-transform: uppercase;
+    padding: 3em 0;
+    padding-bottom: 5em;
+  }
+
+  .graph-sec {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}

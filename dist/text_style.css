@@ -1,0 +1,34 @@
+
+.chart-text {
+    width: 100%;
+    height: 80%;
+    font-size: 1.8em;
+    font-weight: light;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    background-color: #965d5d;
+    position: absolute;
+  }
+  
+  path {
+    stroke: #f9f9f9;
+    /* stroke-width: 5px; */
+    cursor: pointer;
+    transition: fill 250ms;
+  }
+  path:hover {
+    /* stroke-width: 10px; */
+    fill: #030303;
+  }
+  
+  
+  polyline {
+    fill: none;
+    stroke: #491411;
+    stroke-width: 2px;
+    stroke-dasharray: 5px;
+  }
+  
+  .graph-sec{
+    margin-bottom: 50em;
+  }
